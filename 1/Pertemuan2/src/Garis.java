@@ -49,12 +49,6 @@ public class Garis {
         this.titikAkhir = titikAkhir;
     }
 
-    // menghitung panjang garis
-    double getPanjang(){
-        double dx = titikAkhir.getAbsis() - titikAwal.getAbsis();
-        double dy = titikAkhir.getOrdinat() - titikAwal.getOrdinat();
-        return Math.sqrt(dx * dx + dy * dy);
-    }
 
     // mencetak informasi garis
     void printGaris(){
