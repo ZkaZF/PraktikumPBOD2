@@ -1,0 +1,16 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "args": ["-NoProfile", "-NoLogo"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.inheritEnv": true,
+  "terminal.integrated.automationProfile.windows": {
+    "source": "PowerShell",
+    "args": ["-NoProfile", "-NoLogo"]
+  }
+}
