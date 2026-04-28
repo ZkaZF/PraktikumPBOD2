@@ -1,15 +1,15 @@
-// NIM    : [NIM_ANDA]
-// Nama   : [NAMA_ANDA]
-// Tanggal: 2026-04-28
+// NIM    : 24060124140161
+// Nama   : Azka Wayasy Al Hafizh
 // Soal 1 : Polimorfisme Ad Hoc Coersion
 
 public class Soal1Coersion {
     public static void main(String[] args) {
 
-        // a. Ilustrasi polimorfisme coersion: nilai integer 65 ditampilkan sebagai berbagai tipe
+        // a. Ilustrasi polimorfisme coersion: nilai integer 65 ditampilkan sebagai
+        // berbagai tipe
         System.out.println("=== (a) Polimorfisme Coersion: nilai 65 ===");
         int nilaiInt = 65;
-        char nilaiChar = (char) nilaiInt;   // casting int -> char
+        char nilaiChar = (char) nilaiInt; // casting int -> char
         double nilaiDouble = (double) nilaiInt; // casting int -> double
         System.out.println("Sebagai int    : " + nilaiInt);
         System.out.println("Sebagai char   : " + nilaiChar);

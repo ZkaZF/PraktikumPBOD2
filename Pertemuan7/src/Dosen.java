@@ -1,6 +1,5 @@
-// NIM    : [NIM_ANDA]
-// Nama   : [NAMA_ANDA]
-// Tanggal: 2026-04-28
+// NIM    : 24060124140161
+// Nama   : Azka Wayasy Al Hafizh
 // Soal 4a : Kelas Dosen (anak dari CivitasAkademika)
 
 public class Dosen extends CivitasAkademika {

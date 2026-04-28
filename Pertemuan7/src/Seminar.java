@@ -1,6 +1,5 @@
-// NIM    : [NIM_ANDA]
-// Nama   : [NAMA_ANDA]
-// Tanggal: 2026-04-28
+// NIM    : 24060124140161
+// Nama   : Azka Wayasy Al Hafizh
 // Soal 4b - 4j : Kelas Seminar + Main program utama
 
 public class Seminar {
@@ -121,7 +120,7 @@ public class Seminar {
 
         // j. tampilDataMahasiswa
         System.out.println("=== (j) Data Lengkap Mahasiswa ===");
-        MahasiswaSeminar[] listMhs = {m1, m2, m3, m4, m5};
+        MahasiswaSeminar[] listMhs = { m1, m2, m3, m4, m5 };
         for (MahasiswaSeminar mhs : listMhs) {
             mhs.tampilDataMahasiswa();
             System.out.println();

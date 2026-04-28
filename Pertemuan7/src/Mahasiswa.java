@@ -1,6 +1,5 @@
-// NIM    : [NIM_ANDA]
-// Nama   : [NAMA_ANDA]
-// Tanggal: 2026-04-28
+// NIM    : 24060124140161
+// Nama   : Azka Wayasy Al Hafizh
 // Soal 2 : Polimorfisme Ad Hoc Overloading - Kelas Mahasiswa
 
 public class Mahasiswa {
@@ -40,13 +39,25 @@ public class Mahasiswa {
     // -------------------------------------------------------
     // Getter & Setter dasar
     // -------------------------------------------------------
-    public int getNIM() { return NIM; }
-    public void setNIM(int NIM) { this.NIM = NIM; }
+    public int getNIM() {
+        return NIM;
+    }
 
-    public String getNama() { return Nama; }
-    public void setNama(String Nama) { this.Nama = Nama; }
+    public void setNIM(int NIM) {
+        this.NIM = NIM;
+    }
 
-    public String getProgramstudi() { return Programstudi; }
+    public String getNama() {
+        return Nama;
+    }
+
+    public void setNama(String Nama) {
+        this.Nama = Nama;
+    }
+
+    public String getProgramstudi() {
+        return Programstudi;
+    }
 
     // -------------------------------------------------------
     // b. Overloading setProgramStudi - 3 varian

@@ -1,8 +1,6 @@
-// NIM    : [NIM_ANDA]
-// Nama   : [NAMA_ANDA]
-// Tanggal: 2026-04-28
+// NIM    : 24060124140161
+// Nama   : Azka Wayasy Al Hafizh
 // Soal 4a, 4i, 4j : Kelas MahasiswaSeminar (anak dari CivitasAkademika)
-// Catatan: Diberi nama MahasiswaSeminar agar tidak konflik dengan kelas Mahasiswa (Soal 2)
 
 public class MahasiswaSeminar extends CivitasAkademika {
     private String NIM;
