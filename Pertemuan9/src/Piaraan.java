@@ -1,5 +1,5 @@
-/*  Nama File   : Piaraan.java
-    Deskripsi   : Kelas Piaraan - antrean hewan menggunakan array
+/*  Nama File   : PiaraanArray.java
+    Deskripsi   : Versi Piaraan menggunakan array biasa (tanpa Queue/LinkedList)
     Pembuat     : Azka Wayasy Al Hafizh - 24060124140161
     Tanggal     : 05 May 2026
 */
@@ -63,14 +63,15 @@ public class Piaraan {
         return null;
     }
 
-    // mengambil anabul pertama dan sekaligus mengeluarkannya dari antrian (manual dequeue)
+    // mengambil anabul pertama dan sekaligus mengeluarkannya dari antrian (manual
+    // dequeue)
     Anabul dequeueAnabul() {
         if (nbelm > 0) {
             Anabul hewan = Lanabul[front];
             Lanabul[front] = null;
             front++;
             nbelm--;
-            
+
             // reset front jika antrian kosong
             if (nbelm == 0) {
                 front = 0;

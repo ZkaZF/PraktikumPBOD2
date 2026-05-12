@@ -5,9 +5,7 @@
 public class MainDatum {
     public static void main(String[] args) {
 
-        // -------------------------------------------------------
         // 1. Datum berisi tipe primitif (wrapper)
-        // -------------------------------------------------------
         Datum<Integer> datumAngka = new Datum<>(42);
         Datum<String>  datumTeks  = new Datum<>("Hewan Peliharaan");
 
@@ -24,9 +22,7 @@ public class MainDatum {
 
         System.out.println();
 
-        // -------------------------------------------------------
         // 2. Datum berisi objek Anabul (polimorfisme + generik)
-        // -------------------------------------------------------
         Kucing<Double>     kucing   = new Kucing<>("Mochi", 3.5);
         Anggora<Double>    anggora  = new Anggora<>("Bella", 4.0, "Putih");
         Kembangtelon<Double> kb     = new Kembangtelon<>("Mimi", 3.2, "Hitam-Putih-Oranye");
@@ -74,9 +70,7 @@ public class MainDatum {
 
         System.out.println();
 
-        // -------------------------------------------------------
         // 3. Datum bertipe spesifik Kucing<Double>
-        // -------------------------------------------------------
         Datum<Kucing<Double>> datumKucing = new Datum<>(new Kucing<>("Luna", 4.2));
 
         System.out.println("=== Datum bertipe Kucing<Double> ===");

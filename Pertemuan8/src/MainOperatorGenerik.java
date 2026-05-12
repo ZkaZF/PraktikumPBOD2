@@ -5,9 +5,7 @@
 public class MainOperatorGenerik {
     public static void main(String[] args) {
 
-        // -------------------------------------------------------
         // b.1 Tukar sesama Integer
-        // -------------------------------------------------------
         Datum<Integer> angka1 = new Datum<>(3);
         Datum<Integer> angka2 = new Datum<>(6);
 
@@ -18,9 +16,7 @@ public class MainOperatorGenerik {
 
         System.out.println();
 
-        // -------------------------------------------------------
         // b.2 Tukar sesama String
-        // -------------------------------------------------------
         Datum<String> kata1 = new Datum<>("Halo");
         Datum<String> kata2 = new Datum<>("Dunia");
 
@@ -31,10 +27,9 @@ public class MainOperatorGenerik {
 
         System.out.println();
 
-        // -------------------------------------------------------
+    
         // b.3 Tukar sesama keluarga Anabul
         //     Contoh 1: Anjing <-> Kucing  (bertipe Anabul)
-        // -------------------------------------------------------
         Datum<Anabul> hewan1 = new Datum<>(new Anjing("Rex"));
         Datum<Anabul> hewan2 = new Datum<>(new Kucing<>("Mochi", 3.5));
 
@@ -68,9 +63,7 @@ public class MainOperatorGenerik {
 
         System.out.println();
 
-        // -------------------------------------------------------
         // c. Fungsi generik Bobot2: jumlah bobot dua keturunan Kucing
-        // -------------------------------------------------------
         Kucing<Double>     kucingA  = new Kucing<>("Luna",  4.2);
         Anggora<Double>    anggoraA = new Anggora<>("Bella", 4.0, "Putih");
         Kembangtelon<Double> kbA    = new Kembangtelon<>("Mimi", 3.2, "Hitam-Putih-Oranye");

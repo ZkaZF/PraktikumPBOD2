@@ -9,11 +9,9 @@ public class Data<T> {
     private T[] ruang = (T[]) new Object[100]; // larik statis 100 elemen
     private int banyak = 0;                     // banyak elemen efektif
 
-    // -------------------------------------------------------
     // b. Prosedur setIsi
     //    posisi : 1..100 (indeks manusia, bukan indeks array)
     //    elemen : objek yang akan mengisi posisi tersebut
-    // -------------------------------------------------------
     public void setIsi(int posisi, T elemen) {
         if (posisi < 1 || posisi > 100) {
             System.out.println("Posisi " + posisi + " tidak valid! Harus 1..100");
@@ -30,11 +28,9 @@ public class Data<T> {
         ruang[posisi - 1] = elemen;
     }
 
-    // -------------------------------------------------------
     // c. Fungsi getIsi
     //    posisi : 1..100
     //    return : elemen generik pada posisi tersebut
-    // -------------------------------------------------------
     public T getIsi(int posisi) {
         if (posisi < 1 || posisi > 100) {
             System.out.println("Posisi " + posisi + " tidak valid! Harus 1..100");
@@ -43,10 +39,9 @@ public class Data<T> {
         return ruang[posisi - 1];
     }
 
-    // -------------------------------------------------------
     // d. Fungsi getSize
     //    return : banyak elemen efektif (non-null)
-    // -------------------------------------------------------
+
     public int getSize() {
         return banyak;
     }

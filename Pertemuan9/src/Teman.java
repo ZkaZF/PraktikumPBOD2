@@ -1,5 +1,5 @@
-/*  Nama File   : Teman.java
-    Deskripsi   : Kelas Teman - koleksi nama menggunakan array
+/*  Nama File   : TemanArray.java
+    Deskripsi   : Versi Teman menggunakan array biasa (tanpa ArrayList)
     Pembuat     : Azka Wayasy Al Hafizh - 24060124140161
     Tanggal     : 05 May 2026
 */
@@ -74,7 +74,7 @@ public class Teman {
                 break;
             }
         }
-        
+
         // jika nama ditemukan, hapus dengan shift ke kiri
         if (indeks != -1) {
             for (int i = indeks; i < nbelm - 1; i++) {
