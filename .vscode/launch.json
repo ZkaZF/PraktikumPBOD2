@@ -1,4 +1,12 @@
 {
   "version": "0.2.0",
-  "configurations": []
+  "configurations": [
+    {
+      "type": "java",
+      "name": "MainDAO",
+      "request": "launch",
+      "mainClass": "MainDAO",
+      "projectName": "PBO_cee756c9"
+    }
+  ]
 }

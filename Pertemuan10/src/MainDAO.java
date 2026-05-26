@@ -3,15 +3,14 @@ public class MainDAO {
         DAOManager manager = DAOManager.getInstance();
         personDAO dao = manager.getPersonDAO();
 
-        Person p1 = new Person("Alice");
-        dao.save(p1);
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        System.out.print("Masukkan nama Person baru: ");
+        String name = scanner.nextLine();
 
-        Person p2 = new Person("Bob");
-        dao.save(p2);
+        Person pBaru = new Person(name);
+        dao.save(pBaru);
 
-        Person p3 = new Person("Charlie");
-        dao.save(p3);
-
-        System.out.println("Data berhasil disimpan ke database!");
+        System.out.println("Data '" + name + "' berhasil disimpan ke database!");
+        scanner.close();
     }
 }
